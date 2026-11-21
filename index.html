@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Selina Dita Cahyani — Web Developer portfolio. Selected projects, experience, education and skills.">
+  <meta name="theme-color" content="#0c0f0a">
+  <title>Selina Dita Cahyani — Web Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Enables reveal animations only when JavaScript is available -->
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Selina home">SELINA DITA CAHYANI</a>
+
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <h1 class="reveal delay-1">
+          <span class="highlight-word">web </span> developer<br>
+        </h1>
+
+        <ul class="hero-tags reveal delay-2" aria-label="Keahlian">
+          <li>UI/UX</li>
+          <li>FrontEnd Developer</li>
+          <li>Backend Developer</li>
+        </ul>
+
+        <figure class="hero-media reveal delay-2">
+
+          <div class="hero-marquee">
+
+            <div class="hero-marquee-track">
+
+              <!-- SET 1 -->
+              <div class="hero-marquee-group">
+                <img src="assets/leuwimalang.png" alt="Portfolio photo 1">
+                <img src="assets/laporpak.jpg" alt="Portfolio photo 2">
+                <img src="assets/rumtika.jpg" alt="Portfolio photo 3">
+                <img src="assets/suxestories.jpg" alt="Portfolio photo 4">
+                <img src="assets/scientyffy.jpg" alt="Portfolio photo 5">
+              </div>
+            </div>
+
+          </div>
+
+        </figure>
+
+        <div class="hero-actions reveal delay-3">
+          <a href="assets/SelinaDitaCahyani_CV.pdf" class="hero-cv-btn" download>
+            <span>DOWNLOAD MY CV</span>
+          </a>
+
+          <p class="hero-name" aria-label="Selina Dita">
+            Selina<br>Dita
+          </p>
+
+          <p class="hero-intro reveal delay-2">
+            Hi, I'm <strong>Selina</strong> — a Web Developer and
+            Informatics Engineering graduate who enjoys turning ideas
+            into responsive, intuitive, and useful web applications.
+          </p>
+
+        </div>
+      </div>
+    </section>
+    <section class="about section-shell section-pad" id="about">
+      <div class="section-kicker reveal">
+        <span>01 / ABOUT</span>
+        <span class="kicker-rule"></span>
+        <span>GET TO KNOW ME</span>
+      </div>
+
+      <div class="about-grid">
+        <h2 class="section-heading reveal">
+          Curiosity is where<br>
+          good work <span class="serif-accent">begins.</span>
+        </h2>
+
+        <div class="about-body reveal delay-1">
+          <p>
+            I am an Informatics Engineering graduate from
+            <strong>Universitas Negeri Surabaya</strong>, with a strong
+            interest in web development and user-centered digital products.
+          </p>
+          <p>
+            I enjoy working across the development process — from shaping
+            an interface and building responsive front-end experiences to
+            connecting applications with back-end services and databases.
+          </p>
+
+          <div class="stat-row">
+            <div>
+              <strong>3.83<span>/4.00</span></strong>
+              <small>GPA</small>
+            </div>
+            <div>
+              <strong>2022—26</strong>
+              <small>UNIVERSITY YEARS</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-strip reveal">
+        <div class="edu-icon">
+          <img src="assets/unesa.png" alt="Universitas Negeri Surabaya logo">
+        </div>
+        <div>
+          <span class="mini-label">EDUCATION · 2022—2026</span>
+          <h3>Universitas Negeri Surabaya</h3>
+          <p>Bachelor of Informatics Engineering · GPA 3.83/4.00</p>
+        </div>
+        <span class="edu-note">Pemuda Tangguh<br>Scholarship Recipient</span>
+      </div>
+    </section>
+    <section class="section-shell section-pad" id="work">
+      <div class="section-kicker reveal">
+        <span>02 / SELECTED WORK</span>
+        <span class="kicker-rule"></span>
+        <span>IDEAS INTO INTERFACES</span>
+        <p>
+          Projects shaped by collaboration, problem-solving,
+          and a love for creating useful digital experiences.
+        </p>
+
+      </div>
+
+      <div class="work-heading reveal">
+        <h2 class="section-heading">
+          A selection of<br>
+          <span class="serif-accent">things I've built.</span>
+        </h2>
+
+
+        <!-- Pagination (< 1 2 >) is generated by script.js -->
+        <nav class="carousel-nav" id="carouselNav" aria-label="Project pagination"></nav>
+      </div>
+
+      <div class="reveal">
+        <div class="project-grid" id="projectGrid">
+
+          <article class="project-card" data-project="scentifymath">
+            <div class="project-visual scent-visual">
+              <img class="project-thumbnail" src="assets/scientyffy.jpg" loading="lazy"
+                alt="ScentifyMath - Online Perfume Recommendation System">
+              <span class="visual-index">01 — FINAL THESIS</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <span class="project-type">RECOMMENDATION SYSTEM · 2026</span>
+                <h3>ScentifyMath</h3>
+                <p>A web-based perfume recommendation system that personalizes product discovery using 11 user
+                  preference attributes and a dataset of 4,125 perfumes.</p>
+                <div class="tags">
+                  <span>React.js</span><span>Python</span><span>FastAPI</span><span>MongoDB</span><span>Sentence-BERT</span>
+                </div>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+            <button class="project-open" type="button" aria-haspopup="dialog"
+              aria-label="View details of ScentifyMath"></button>
+          </article>
+
+          <article class="project-card" data-project="rumtika">
+            <div class="project-visual scent-visual">
+              <img class="project-thumbnail" src="assets/rumtika.jpg" loading="lazy"
+                alt="ScentifyMath - Online Perfume Recommendation System">
+              <span class="visual-index">02 — Intership</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <span class="project-type">Learning Management System · 2025</span>
+                <h3>Rumtika (Rumah Teknologi Pendidikan)</h3>
+                <p>
+                  A web-based learning management system that helps teachers
+                  explore and utilize creative digital applications to create
+                  more engaging and innovative teaching and learning experiences.
+                </p>
+                <div class="tags">
+                  <span>Vue.js</span><span>Tailwind.css</span><span>Node.js</span><span>Express.js</span><span>.js</span>
+                </div>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+            <button class="project-open" type="button" aria-haspopup="dialog"
+              aria-label="View details of Project 02"></button>
+          </article>
+
+          <article class="project-card" data-project="suxesstories">
+            <div class="project-visual scent-visual">
+              <img class="project-thumbnail" src="assets/suxestories.jpg" loading="lazy"
+                alt="ScentifyMath - Online Perfume Recommendation System">
+              <span class="visual-index">03 — Final Project (Maxy Academy)</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <span class="project-type">Event Management System · 2024</span>
+                <h3>suxesstories</h3>
+                <p>A web-based event management system for managing events, Job Fair participant registration, QR
+                  Code-based registration verification, and transaction management.</p>
+                <div class="tags"><span>Vue.js</span><span>Tailwind.css</span><span>Firebase</span></div>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+            <button class="project-open" type="button" aria-haspopup="dialog"
+              aria-label="View details of LaporPak.com"></button>
+          </article>
+
+          <article class="project-card" data-project="laporpak">
+            <div class="project-visual scent-visual">
+              <img class="project-thumbnail" src="assets/laporpak.jpg" loading="lazy"
+                alt="ScentifyMath - Online Perfume Recommendation System">
+              <span class="visual-index">04 — Hacathon (2)</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <span class="project-type">Public Complaint System · 2024</span>
+                <h3>LaporPak.com</h3>
+                <p>A village profile and tourism website introducing local potential, information, and destinations.
+                </p>
+                <div class="tags"><span>React.js</span><span>Tailwind CSS</span><span>UI/UX</span></div>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+            <button class="project-open" type="button" aria-haspopup="dialog"
+              aria-label="View details of Desa Leuwimalang"></button>
+          </article>
+
+          <article class="project-card" data-project="leuwimalang">
+            <div class="project-visual scent-visual">
+              <img class="project-thumbnail" src="assets/leuwimalang.png" loading="lazy"
+                alt="ScentifyMath - Online Perfume Recommendation System">
+              <span class="visual-index">05 — Hacathon (1)</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <span class="project-type">VILLAGE PROFILE WEBSITE · 2024</span>
+                <h3>Desa Leuwimalang</h3>
+                <p>A village profile and tourism website introducing local potential, information, and destinations.</p>
+                <div class="tags"><span>Vue.js</span><span>Bootstrap</span><span>Laravel</span><span>MySQL</span></div>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+            <button class="project-open" type="button" aria-haspopup="dialog"
+              aria-label="View details of SuxesStories"></button>
+          </article>
+
+          <article class="project-card" data-project="polresTapin">
+            <div class="project-visual scent-visual">
+              <img class="project-thumbnail" src="assets/redesain.jpg" loading="lazy"
+                alt="ScentifyMath - Online Perfume Recommendation System">
+              <span class="visual-index">06 — Redesain Website</span>
+            </div>
+            <div class="project-info">
+
+              <div>
+                <span class="project-type">WEBSITE REDESIGN · 2024</span>
+                <h3>Polres Tapin Website Redesign</h3>
+                <p>A website redesign project focused on improving usability, navigation, and user experience as part of
+                  a Human-Computer Interaction course.</p>
+                <div class="tags">
+                  <span>UI/UX Design</span>
+                  <span>User-Centered Design</span>
+                  <span>Wireframing</span>
+                  <span>Prototyping</span>
+                </div>
+              </div>
+
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+            <button class="project-open" type="button" aria-haspopup="dialog"
+              aria-label="View details of SuxesStories"></button>
+          </article>
+
+        </div>
+
+      </div>
+
+      <!-- Project detail modal -->
+      <dialog class="project-modal" id="projectModal" aria-labelledby="modalTitle">
+        <div class="modal-inner">
+          <button class="modal-close" type="button" id="modalClose" aria-label="Close">✕</button>
+          <div class="modal-image">
+            <img id="modalImage" src="" alt="Project Preview">
+          </div>
+
+          <div class="modal-body">
+            <span class="project-type" id="modalType"></span>
+            <h3 id="modalTitle"></h3>
+            <p class="modal-overview" id="modalOverview"></p>
+            <!-- System Workflow -->
+            <div class="modal-workflow-section" id="workflowSection">
+              <h4>SYSTEM WORKFLOW</h4>
+              <div class="workflow-list" id="modalWorkflow"></div>
+            </div>
+            <div class="modal-cols">
+              <div>
+                <h4>WHAT I DID</h4>
+                <ul id="modalRole"></ul>
+              </div>
+              <div>
+                <h4>OUTCOMES</h4>
+                <ul id="modalOutcome"></ul>
+              </div>
+            </div>
+
+            <h4>TECH STACK</h4>
+            <div class="tags" id="modalTags"></div>
+
+            <div class="modal-links" id="modalLinks"></div>
+          </div>
+        </div>
+      </dialog>
+    </section>
+    <section class="experience section-shell section-pad" id="experience">
+      <div class="section-kicker reveal">
+        <span>03 / EXPERIENCE</span>
+        <span class="kicker-rule"></span>
+        <span>WHERE I'VE GROWN</span>
+      </div>
+
+      <h2 class="section-heading reveal">Learning by <span class="serif-accent">doing.</span></h2>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">FEB — JUN 2025</div>
+          <div class="timeline-main">
+            <span class="mini-label">INTERNSHIP · GRADE A</span>
+            <h3>Full-Stack Developer</h3>
+            <h4>UPT TIKP — East Java Provincial Education Department</h4>
+            <p>
+              Collaborated with a six-member team on web application development, contributing to project
+              discussions, user interface implementation, and feature development. Also supported PPDB data
+              administration using Microsoft Excel.
+            </p>
+            <div class="tags">
+              <span>Web Development</span><span>Team Collaboration</span><span>Microsoft Excel</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">SEP — DEC 2024</div>
+          <div class="timeline-main">
+            <span class="mini-label">INDEPENDENT STUDY · AVG. SCORE 93.17</span>
+            <h3>Front-End Developer</h3>
+            <h4>Maxy Academy</h4>
+            <p>
+              Completed 13 front-end competency modules and joined a hackathon, earning a score of 95. Also
+              completed a virtual internship project with PT Batu Tala Saudara.
+            </p>
+            <div class="tags"><span>Front-End</span><span>Vue.js</span><span>Hackathon</span></div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">MAY — SEP 2023</div>
+          <div class="timeline-main">
+            <span class="mini-label">VOLUNTEER EXPERIENCE</span>
+            <h3>Math Tutor Assistant</h3>
+            <h4>Surabaya City Education Department</h4>
+            <p>
+              Supported more than 10 students through guided practice and study planning, contributing to a 50%
+              increase in average mathematics scores.
+            </p>
+            <div class="tags"><span>Communication</span><span>Mentoring</span><span>Problem-Solving</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="skills section-shell section-pad" id="skills">
+      <div class="section-kicker reveal">
+        <span>04 / TOOLKIT</span>
+        <span class="kicker-rule"></span>
+        <span>WHAT I WORK WITH</span>
+      </div>
+
+      <div class="skills-layout">
+        <h2 class="section-heading reveal">
+          Tools for turning<br>
+          <span class="serif-accent">ideas into reality.</span>
+        </h2>
+
+        <div class="skill-groups">
+          <div class="skill-group reveal">
+            <span class="skill-number">01</span>
+            <div>
+              <h3>Front-End Development</h3>
+              <p>HTML · CSS · JavaScript · Vue.js · React.js · Tailwind CSS · Bootstrap · Responsive Web Design</p>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <span class="skill-number">02</span>
+            <div>
+              <h3>Back-End &amp; Database</h3>
+              <p>Python · FastAPI · PHP · Laravel · Node.js · Express.js · MySQL · MongoDB</p>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <span class="skill-number">03</span>
+            <div>
+              <h3>UI/UX Design</h3>
+              <p>Figma · Wireframing · Prototyping · User Research · UI Design · UX Design</p>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <span class="skill-number">04</span>
+            <div>
+              <h3>Machine Learning &amp; NLP</h3>
+              <p>Sentence-BERT · Content-Based Filtering · Cosine Similarity</p>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <span class="skill-number">05</span>
+            <div>
+              <h3>Tools &amp; Productivity</h3>
+              <p>GitHub · Visual Studio Code · Miro · Microsoft Word · Microsoft Excel</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="soft-skills reveal">
+        <span class="mini-label">BEYOND THE CODE</span>
+        <p>
+          Critical Thinking <i>-</i> Communication <i>-</i> Collaboration <i>-</i> Problem-Solving <i>-</i>
+          Time Management <i>-</i> Teamwork <i>-</i> Adaptability <i>-</i> Creativity
+        </p>
+      </div>
+    </section>
+    <section class="credentials section-shell section-pad">
+      <div class="section-kicker reveal">
+        <span>05 / CREDENTIALS</span>
+        <span class="kicker-rule"></span>
+        <span>ALWAYS LEARNING</span>
+      </div>
+
+      <h2 class="section-heading reveal">Learning never <span class="serif-accent">stops.</span></h2>
+      <ul class="credential-list reveal" id="credentialList">
+        <li>
+          <button class="credential-trigger" type="button" data-certificate="assets/certificates/tep.jpg"
+            data-title=" Test of English Proficiency (TEP) – State University of Surabaya (2026)">
+            <span class="credential-year">2026</span>
+            <p> Test of English Proficiency (TEP) – State University of Surabaya (2026)</p>
+            <span class="credential-arrow" aria-hidden="true">↗</span>
+          </button>
+        </li>
+
+        <li>
+          <button class="credential-trigger" type="button" data-certificate="assets/certificates/upt-tikp.jpg"
+            data-title="Internship Certificate — UPT TIKP">
+            <span class="credential-year">2025</span>
+            <p>Internship Certificate — UPT TIKP, East Java Provincial Education Department</p>
+            <span class="credential-arrow" aria-hidden="true">↗</span>
+          </button>
+        </li>
+
+        <li>
+          <button class="credential-trigger" type="button" data-certificate="assets/certificates/maxy.jpg"
+            data-title="MSIB — Maxy Academy">
+            <span class="credential-year">2025</span>
+            <p>Certified Internship and Independent Study (MSIB) — Maxy Academy</p>
+            <span class="credential-arrow" aria-hidden="true">↗</span>
+          </button>
+        </li>
+
+        <li>
+          <button class="credential-trigger" type="button" data-certificate="assets/certificates/kampus-merdeka.jpg"
+            data-title="Kampus Merdeka — Independent Study">
+            <span class="credential-year">2024</span>
+            <p>Independent Study Participation Certificate — Kampus Merdeka</p>
+            <span class="credential-arrow" aria-hidden="true">↗</span>
+          </button>
+        </li>
+
+        <li>
+          <button class="credential-trigger" type="button" data-certificate="assets/certificates/aws.png"
+            data-title="AWS Cloud Essentials">
+            <span class="credential-year">2024</span>
+            <p>AWS Knowledge: Cloud Essentials — Amazon Web Services</p>
+            <span class="credential-arrow" aria-hidden="true">↗</span>
+          </button>
+        </li>
+
+        <li>
+          <button class="credential-trigger" type="button" data-certificate="assets/certificates/redhet.png"
+            data-title="Red Hat RH104">
+            <span class="credential-year">2024</span>
+            <p>Getting Started with Linux Fundamentals (RH104) — Red Hat</p>
+            <span class="credential-arrow" aria-hidden="true">↗</span>
+          </button>
+        </li>
+
+        <li>
+          <button class="credential-trigger" type="button" data-certificate="assets/certificates/coding-studio-fe1.png"
+            data-title="Fundamental Front-End Web Development I — Coding Studio">
+            <span class="credential-year">2024</span>
+            <p>Fundamental Front-End Web Development I — Coding Studio</p>
+            <span class="credential-arrow" aria-hidden="true">↗</span>
+          </button>
+        </li>
+
+        <li>
+          <button class="credential-trigger" type="button" data-certificate="assets/certificates/coding-studio-fe2.png"
+            data-title="Fundamental Front-End Web Development II — Coding Studio">
+            <span class="credential-year">2024</span>
+            <p>Fundamental Front-End Web Development II — Coding Studio</p>
+            <span class="credential-arrow" aria-hidden="true">↗</span>
+          </button>
+        </li>
+
+        <li>
+          <button class="credential-trigger" type="button" data-certificate="assets/certificates/coding-studio-ui.png"
+            data-title="Fundamental UI Design — Coding Studio">
+            <span class="credential-year">2024</span>
+            <p>Fundamental UI Design — Coding Studio</p>
+            <span class="credential-arrow" aria-hidden="true">↗</span>
+          </button>
+        </li>
+
+        <li>
+          <button class="credential-trigger" type="button" data-certificate="assets/certificates/skilvul-uiux.png"
+            data-title="Intro to UI/UX (Gold) — Skilvul">
+            <span class="credential-year">2024</span>
+            <p>Intro to UI/UX (Gold) — Skilvul</p>
+            <span class="credential-arrow" aria-hidden="true">↗</span>
+          </button>
+        </li>
+        <li>
+          <button class="credential-trigger" type="button" data-certificate="assets/certificates/Udemy.png"
+            data-title="The Complete 2024 Web Development Bootcamp — Udemy">
+            <span class="credential-year">2024</span>
+            <p>The Complete 2024 Web Development Bootcamp
+              — Udemy</p>
+            <span class="credential-arrow" aria-hidden="true">↗</span>
+          </button>
+        </li>
+
+      </ul>
+      <div class="credential-more" id="credentialMore">
+        <button type="button" class="credential-more-btn" id="credentialMoreBtn">
+          <span id="credentialMoreText">Show More</span>
+        </button>
+      </div>
+      <dialog class="certificate-modal" id="certificateModal">
+
+        <div class="certificate-modal-inner">
+
+          <div class="certificate-modal-header">
+            <p id="certificateTitle">Certificate</p>
+
+            <button class="certificate-close" id="certificateClose" type="button" aria-label="Close certificate">
+              &times;
+            </button>
+          </div>
+
+          <div class="certificate-image-wrapper">
+            <img src="" id="certificateImage" alt="Certificate preview">
+          </div>
+
+        </div>
+
+      </dialog>
+
+      <div class="language-note reveal">
+        <span class="mini-label">LANGUAGES</span>
+        <p>Indonesian <span>Native</span> <i>/</i> English <span>Intermediate</span></p>
+      </div>
+    </section>
+    <section class="contact section-shell" id="contact">
+      <div class="contact-inner reveal">
+        <span class="mini-label">HAVE A PROJECT IN MIND?</span>
+
+        <h2>Let's make<br>something <span class="serif-accent">meaningful.</span></h2>
+
+        <a class="contact-mail" href="https://mail.google.com/mail/?view=cm&to=selinadita0@gmail.com" target="_blank"
+          rel="noopener noreferrer">
+          selinadita0@gmail.com <span>↗</span>
+        </a>
+        <a class="contact-github" href="https://github.com/Selinadita" target="_blank" rel="noopener noreferrer">
+          GitHub <span aria-hidden="true">↗</span>
+        </a>
+        <div class="contact-bottom">
+          <span>AVAILABLE FOR NEW OPPORTUNITIES</span>
+          <a href="https://www.linkedin.com/in/selinaditac/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer section-shell">
+    <a class="brand" href="#home">
+      <span>SELINA DITA CAHYANI</span>
+    </a>
+    <span>DESIGNED &amp; BUILT WITH CARE · 2026</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
