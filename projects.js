@@ -182,12 +182,13 @@ const PROJECTS = {
       },
     ],
 
-links: [
-  {
-    label: "GITHUB ↗",
-    href: "https://github.com/agissukmayadi/suxesstories",
+    links: [
+      {
+        label: "GITHUB ↗",
+        href: "https://github.com/agissukmayadi/suxesstories",
+      },
+    ],
   },
-],  },
 
   laporpak: {
     image: "assets/laporpak.jpg",
@@ -249,7 +250,7 @@ links: [
 
     links: [
       {
-        label: "LIVE DEMO ↗",
+        label: "LIVE DEMO",
         href: "https://lapor.freedev.app/",
       },
     ],
@@ -315,7 +316,7 @@ links: [
 
     links: [
       {
-        label: "LIVE DEMO ↗",
+        label: "LIVE DEMO",
         href: "https://desa-leuwimalang.vercel.app/",
       },
     ],
@@ -386,11 +387,88 @@ links: [
       },
     ],
 
+    links: [
+      {
+        label: "LIVE DEMO",
+        href: "https://selinadita.github.io/RedesainWebsite/",
+      },
+    ],
+  },
+  habitMate: {
+    image: "assets/habitmate.jpg",
+    type: "FULL-STACK WEB APPLICATION · 2026",
+    title: "HabitMate – 30-Day Habit Tracker",
+    overview:
+      "A responsive web application designed to help users build and maintain positive habits through a 30-day tracking system. The platform allows users to manage daily habits, monitor their progress, and track consistency through an interactive dashboard.",
+
+    role: [
+      "Designed and developed a responsive habit-tracking web application",
+      "Built the user interface using React.js and Tailwind CSS",
+      "Developed RESTful APIs using Python and FastAPI",
+      "Integrated MySQL database to manage user accounts and habit-tracking records",
+      "Implemented authentication and habit management functionality",
+      "Developed daily progress tracking and achievement features",
+      "Prepared the application for deployment using Vercel",
+    ],
+
+    outcome: [
+      "Developed a full-stack web application for 30-day habit tracking",
+      "Enabled users to create, manage, and track daily habits",
+      "Provided an interactive dashboard to visualize habit progress",
+      "Implemented backend services and database integration",
+      "Created a responsive interface accessible across desktop and mobile devices",
+    ],
+
+    tags: [
+      "React.js",
+      "Tailwind CSS",
+      "Python",
+      "FastAPI",
+      "MySQL",
+      "SQLAlchemy",
+      "REST API",
+      "Full-Stack Development",
+      "Responsive Web Design",
+    ],
+
+    workflow: [
+      {
+        step: "01",
+        title: "Planning & Design",
+        description:
+          "Defined the application features, user flows, and interface structure for a 30-day habit-tracking experience.",
+      },
+      {
+        step: "02",
+        title: "Frontend Development",
+        description:
+          "Developed responsive user interfaces using React.js and Tailwind CSS.",
+      },
+      {
+        step: "03",
+        title: "Backend Development",
+        description:
+          "Built backend services and RESTful APIs using Python and FastAPI to handle application logic.",
+      },
+      {
+        step: "04",
+        title: "Database Integration",
+        description:
+          "Integrated MySQL using SQLAlchemy to manage user data and daily habit-tracking records.",
+      },
+      {
+        step: "05",
+        title: "Deployment",
+        description:
+          "Configured the application for deployment using Vercel and prepared frontend-backend integration.",
+      },
+    ],
 
     links: [
       {
-        label: "LIVE DEMO ↗",
-        href: "https://selinadita.github.io/RedesainWebsite/",
+        label: "LIVE DEMO",
+        href: "https://frontend-nine-swart-37.vercel.app/",
       },
-    ],  },
+    ],
+  },
 };
